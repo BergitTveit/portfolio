@@ -1,0 +1,99 @@
+nav ul {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+}
+nav ul li a:hover {
+  background-color: var(--accent-color);
+}
+nav {
+  position: relative;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.topnav {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  header {
+    top: 0;
+  }
+  main {
+    margin-top: 5vh;
+  }
+  .nav-style {
+    display: none;
+  }
+  .topnav {
+    display: block;
+    margin-top: 0;
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    width: 100vw;
+  }
+
+  .topnav #myLinks {
+    display: none;
+  }
+
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  .topnav #myLinks a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .topnav a.icon {
+    background: var(--accent-color);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav .icon {
+    color: rgb(255, 255, 255);
+  }
+
+  .topnav a:hover {
+    background-color: var(--accent-color);
+    color: black;
+  }
+  .topnav #myLinks.show {
+    display: block;
+  }
+
+  .active {
+    background-color: #fff;
+    color: black;
+  }
+}

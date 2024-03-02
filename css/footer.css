@@ -1,0 +1,15 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0;
+}
+.some {
+  margin: 10px;
+}
+.some a {
+  color: black;
+}
+
+.some a:hover {
+  color: var(--accent-color);
+}

@@ -1,0 +1,21 @@
+.image {
+  height: 150px;
+}
+.projectcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 200px;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 10px;
+}
+
+.projectcards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
