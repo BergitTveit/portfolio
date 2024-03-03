@@ -29,6 +29,12 @@ header {
   background-repeat: no-repeat;
 }
 
+footer {
+  margin-top: auto;
+  text-align: center;
+  padding: 10px;
+}
+
 @media screen and (max-width: 767px) {
   .body {
     margin-top: 0vh;
